@@ -93,17 +93,19 @@ h6,
 
 .btn.btn-primary-gradient,
 .btn.btn-secondary-gradient::after {
-    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background: #F3F4F7;
+    color: #037Ef3; 
 }
 
 .btn.btn-secondary-gradient,
 .btn.btn-primary-gradient::after {
-    background: linear-gradient(to bottom right, var(--secondary), var(--primary));
+    background: #F3F4F7;
+    color: #037Ef3; 
 }
 
-.btn.btn-primary-gradient:hover::after,
-.btn.btn-secondary-gradient:hover::after {
-    opacity: 1;
+.btn.btn-primary-gradient:hover,
+.btn.btn-secondary-gradient:hover {
+    background: #c9dbff;
 }
 
 .btn-square {
@@ -248,10 +250,14 @@ h6,
         border-top-color: var(--primary);
     }
 
-    .sticky-top.navbar-light .navbar-brand h1 {
-        background: linear-gradient(to bottom right, var(--primary), var(--secondary));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    .sticky-top.navbar-light .navbar-brand .logo {
+        background: url(../img/blacklogo.png) !important;
+        width: 210px;
+        height: 43px;
+    }
+
+    .m-0 {
+        
     }
 }
 
@@ -260,10 +266,7 @@ h6,
 .hero-header {
     margin-bottom: 6rem;
     padding: 16rem 0 0 0;
-    background:
-        url(../img/bg-circle.png),
-        url(../img/bg-triangle.png),
-        url(../img/bg-bottom.png),
+    background: url(../img/bgr.png);
         linear-gradient(to bottom right, var(--primary), var(--secondary));
     background-position:
         left 0px top 0px,
