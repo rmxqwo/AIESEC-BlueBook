@@ -44,23 +44,23 @@ h6,
 
 /*** Gradient Text & BG ***/
 .text-primary-gradient {
-    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background: linear-gradient(to bottom right, var(#037Ef3), var(#0CB9C1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .text-secondary-gradient {
-    background: linear-gradient(to bottom right, var(--secondary), var(--primary));
+    background: linear-gradient(to bottom right, var(#0CB9C1), var(#037Ef3));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .bg-primary-gradient {
-    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background: linear-gradient(to bottom right, var(#037Ef3), var(#0CB9C1));
 }
 
 .bg-secondary-gradient {
-    background: linear-gradient(to bottom right, var(--secondary), var(--primary));
+    background: linear-gradient(to bottom right, var(#0CB9C1), var(#037Ef3));
 }
 
 
