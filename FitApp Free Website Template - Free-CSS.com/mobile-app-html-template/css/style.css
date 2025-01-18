@@ -267,7 +267,6 @@ h6,
     margin-bottom: 6rem;
     padding: 16rem 0 0 0;
     background: url(../img/bgr.png);
-        linear-gradient(to bottom right, var(--primary), var(--secondary));
     background-position:
         left 0px top 0px,
         right 0px top 50%,
@@ -425,6 +424,15 @@ h6,
     background: linear-gradient(to bottom right, var(--secondary), var(--primary));
 }
 
+.about-p {
+    color: #000;
+    font-size: 17px;
+}
+
+.widthexp {
+    width: 100% !important;
+}
+
 
 /*** Footer ***/
 .footer {
@@ -433,7 +441,6 @@ h6,
     background:
         url(../img/bg-circle.png),
         url(../img/bg-triangle.png),
-        url(../img/bg-top.png),
         linear-gradient(to bottom right, var(--primary), var(--secondary));
     background-position:
         left 0px bottom 0px,
