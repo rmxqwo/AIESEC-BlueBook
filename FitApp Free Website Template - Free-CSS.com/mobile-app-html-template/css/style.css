@@ -389,7 +389,7 @@ div#contact {
 
 .pricing .nav-link.active {
     color: #FFFFFF;
-    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background: #037Ef3;
 }
 
 
@@ -465,7 +465,7 @@ div#contact {
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
-    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background: #037Ef3;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item h5,
@@ -479,6 +479,10 @@ div#contact {
     justify-content: center;
 }
 
+.container-fluid.bg-primary.text-light.footer.wow.fadeIn {
+    background: url(../img/bgr.png) !important;
+}
+
 .testimonial-carousel .owl-nav .owl-prev,
 .testimonial-carousel .owl-nav .owl-next {
     margin: 0 12px;
@@ -488,7 +492,7 @@ div#contact {
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
-    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background: #037Ef3;
     border-radius: 60px;
     font-size: 18px;
     transition: .5s;
@@ -496,7 +500,7 @@ div#contact {
 
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
-    background: linear-gradient(to bottom right, var(--secondary), var(--primary));
+    background: #037Ef3;
 }
 
 .about-p {
