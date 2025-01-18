@@ -1,3 +1,64 @@
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('../fonts/Lato-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Raleway-ExtraBold';
+    src: url('../fonts/Raleway-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url('../fonts/Raleway-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+h1.text-white.mb-4.animated.slideInDown {
+    font-family: 'Raleway-ExtraBold';
+}
+
+h1.mb-4 {
+    font-family: 'Raleway-ExtraBold';
+}
+
+p.text-white.pb-3.animated.slideInDown, p.mb-4 {
+    font-family: 'Raleway-Medium' !important;
+}
+
+.about-p {
+    font-family: 'Raleway-Medium' !important;
+}
+
+a.btn.btn-primary-gradient.py-sm-3.px-4.px-sm-5.rounded-pill.mt-3 {
+    font-family: 'Raleway-Medium' !important;
+}
+
+a.btn.btn-primary-gradient.py-sm-3.px-4.px-sm-5.rounded-pill.me-3.animated.slideInLeft {
+    font-family: 'Raleway-Medium' !important;
+}
+
+a.btn.btn-secondary-gradient.py-sm-3.px-4.px-sm-5.rounded-pill.animated.slideInRight {
+    font-family: 'Raleway-Medium' !important;
+}
+
+.mb-4 {
+    font-family: 'Raleway-Medium' !important;
+}
+
+.mb-5 {
+    font-family: 'Raleway-ExtraBold' !important;
+}
+
+.sendbtn {
+    font-family: 'Raleway-Medium' !important;
+}
+
+
 /********** Template CSS **********/
 :root {
     --primary: #4294E3;
@@ -76,6 +137,7 @@ h6,
     border: none;
     color: #FFFFFF;
     z-index: 1;
+    font-family: 'Lato-Regular';
 }
 
 .btn.btn-primary-gradient::after,
@@ -142,6 +204,19 @@ h6,
     z-index: 99;
     border: none;
     background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+}
+
+div#contact {
+    background: #F3F4F7;
+}
+
+.sendbtn {
+    background: #037Ef3 !important;
+    color: #fff !important;
+}
+
+.sendbtn:hover {
+    background: #125797 !important;
 }
 
 
