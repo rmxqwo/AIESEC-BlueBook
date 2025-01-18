@@ -16,9 +16,19 @@
     font-weight: normal;
     font-style: normal;
   }
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('../fonts/Raleway-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 
 
 h1.text-white.mb-4.animated.slideInDown {
+    font-family: 'Raleway-ExtraBold';
+}
+
+.navbar-nav.mx-auto.py-0 {
     font-family: 'Raleway-ExtraBold';
 }
 
@@ -326,7 +336,7 @@ div#contact {
     }
 
     .sticky-top.navbar-light .navbar-brand .logo {
-        background: url(../img/blacklogo.png) !important;
+        background: url(../img/BlueLogo.png) !important;
         width: 210px;
         height: 43px;
     }
