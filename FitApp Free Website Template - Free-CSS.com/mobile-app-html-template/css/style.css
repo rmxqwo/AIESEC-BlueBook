@@ -266,13 +266,14 @@ h6,
 .hero-header {
     margin-bottom: 6rem;
     padding: 16rem 0 0 0;
-    background: url(../img/bgr.png);
-        linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background: 
+        linear-gradient(to bottom right, var(--primary), var(--secondary)), 
+        url(../img/bgr.png);
     background-position:
-        left 0px top 0px,
-        right 0px top 50%,
-        center bottom;
-    background-repeat: no-repeat;
+        center, 
+        left 0px top 0px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, auto;
 }
 
 @media (max-width: 991.98px) {
